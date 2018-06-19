@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfTwitter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTwitter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="700">
+    <Grid>
+        <TextBlock Name="textblock" Text="#"  FontSize="60" Width="300" />
+        <TextBox Name="textbox" Text="" FontSize="25" Margin="246,24,176,347"/>
+        <ListBox x:Name="listbox" Width="300" Height="300" Margin="216,95,176,24" />
+        <Button Name="button"  Content="Go" HorizontalAlignment="Left" Margin="568,24,0,0" VerticalAlignment="Top" Width="40" Height="40" RenderTransformOrigin="0.325,-0.158" FontSize="25" Click="Button_Click"/>
+        <Button Name="button1" Content="Show image" HorizontalAlignment="Left" Margin="33,111,0,0" VerticalAlignment="Top" Width="80" Height="30" FontWeight="Bold" Click="button1_Click"/>
+
+        <WrapPanel Name="wrappanel1"   Width="150" Margin="33,186,509,84" />
+    </Grid>
+</Window>
